@@ -106,7 +106,58 @@ margin-bottom: 10px;
 }
 
 #fourth-slide-btn{
-  margin-top: -480px;
+  margin-top: -1px;
+margin-bottom: 10px;
+display: block;
+}
+
+#fifth-slide{
+  display: none;
+}
+.fifth-slide-img{
+  margin-top: 100px;
+  width:35%;
+  height: 400px;
+  border-radius: 5%;
+}
+
+#fifth-slide-h1{
+margin-top: 150px;
+margin-bottom: 10px;
+
+}
+#doesnotequal{
+  display: inline;
+  margin-left: 20px;
+  margin-right: 20px;
+  font-size: 100px;
+
+}
+
+#fifth-slide-btn{
+  margin-top: 5px;
+margin-bottom: 10px;
+display: block;
+}
+
+#last-slide{
+  display: none;
+}
+.last-slide-img{
+  margin-top: 100px;
+  width:30%;
+  height: 400px;
+  border-radius: 5%;
+}
+
+#last-slide-h1{
+margin-top: 150px;
+margin-bottom: 10px;
+
+}
+
+#last-slide-btn{
+  margin-top: 5px;
 margin-bottom: 10px;
 display: block;
 }

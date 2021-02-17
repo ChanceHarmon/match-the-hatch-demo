@@ -21,8 +21,20 @@ function handleFourthSlide() {
   $('#third-slide').hide()
   $('#fourth-slide').toggle();
 }
+function handleFifthSlide() {
+  console.log('clicked')
+  $('#fourth-slide').hide()
+  $('#fifth-slide').toggle();
+}
+function handleLastSlide() {
+  console.log('clicked')
+  $('#fifth-slide').hide()
+  $('#last-slide').toggle();
+}
 
 $('#fish-flash').on('click', handleFishClick)
 $('#first-slide-btn').on('click', handleSecondSlide)
 $('#second-slide-btn').on('click', handleThirdSlide)
 $('#third-slide-btn').on('click', handleFourthSlide)
+$('#fourth-slide-btn').on('click', handleFifthSlide)
+$('#fifth-slide-btn').on('click', handleLastSlide)
