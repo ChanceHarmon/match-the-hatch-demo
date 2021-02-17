@@ -1,0 +1,112 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  width: 960px;
+  margin: 0px auto;
+}
+main{
+  width:100%;
+  margin: 0px auto;
+  text-align: center;
+}
+
+button{
+  margin: 50% auto;
+  color: whitesmoke;
+  background-color: blue;
+  padding: 2%;
+  border-radius: 5%;
+}
+
+h1{
+  font-size: xx-large;
+}
+
+img{
+  width: 30%;
+  height:200px;
+}
+#first-slide{
+  display: none;
+}
+
+#first-slide-h1{
+margin-top: 200px;
+margin-bottom: -200px;
+}
+
+#first-slide-btn{
+  margin-top: -500px;
+margin-bottom: 500px;
+}
+
+.scare-tactics{
+  margin: 35% 10px 75px 10px;
+}
+
+#second-slide{
+  display: none;
+}
+#fish-mystery{
+  margin-top: 100px;
+  width:400px;
+  height: 400px;
+  border-radius: 5%;
+}
+
+#second-slide-h1{
+margin-top: 150px;
+margin-bottom: 10px;
+
+}
+
+#second-slide-btn{
+  margin-top: -480px;
+margin-bottom: 10px;
+display: block;
+}
+
+#third-slide{
+  display: none;
+}
+.third-slide-img{
+  margin-top: 100px;
+  width:30%;
+  height: 400px;
+  border-radius: 5%;
+}
+
+#third-slide-h1{
+margin-top: 150px;
+margin-bottom: 10px;
+
+}
+
+#third-slide-btn{
+  margin-top: -480px;
+margin-bottom: 10px;
+display: block;
+}
+
+#fourth-slide{
+  display: none;
+}
+.fourth-slide-img{
+  margin-top: 100px;
+  width:30%;
+  height: 400px;
+  border-radius: 5%;
+}
+
+#fourth-slide-h1{
+margin-top: 150px;
+margin-bottom: 10px;
+
+}
+
+#fourth-slide-btn{
+  margin-top: -480px;
+margin-bottom: 10px;
+display: block;
+}
